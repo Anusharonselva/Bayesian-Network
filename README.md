@@ -19,8 +19,11 @@ Step 13:Generate the graph using networkx<br/>
 Step 14:Update margins and display the graph using matplotlib.pyplot<br/>
 
 ## Program:
-'''  Developed By: S.ANUSHARON
-     Reg No: 212222240010
+```
+Developed By: S.ANUSHARON
+Reg No: 212222240010
+```
+```
 ! pip install pybbn
 
 
@@ -109,9 +112,11 @@ nx.draw(n, with_labels=True, labels=d, pos=pos, **options)
 ax = plt.gca()
 ax.margins(0.10)
 plt.axis("off")
-plt.show() '''
+plt.show() 
+```
+
 ## Output:
-''' ![exp1 app ai](https://github.com/Anusharonselva/Bayesian-Network/assets/119405600/8dc01bc5-93b5-4ece-9000-a87026914885)
+![exp1 app ai](https://github.com/Anusharonselva/Bayesian-Network/assets/119405600/8dc01bc5-93b5-4ece-9000-a87026914885)
 
 ## Result:
    Thus a Bayesian Network is generated using Python
